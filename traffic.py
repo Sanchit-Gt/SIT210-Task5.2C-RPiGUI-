@@ -25,10 +25,10 @@ def set_led_color(color):
 #CREATING WINDOW
 root = tk.Tk()
 root.title("LED Controller")
-root.geometry("300x200")  
+root.geometry("400x400")  
 
 # CREATING LABEL
-label = tk.Label(root, text="Select the color of LED: ", font=("Arial", 20))
+label = tk.Label(root, text="Select the color: ", font=("Calibri", 20))
 label.pack(pady=20)
  
 def button_click(color):
